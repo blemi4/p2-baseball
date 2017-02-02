@@ -7,6 +7,7 @@ First I looked at the distribution of team wins for the data from 1980 on.  I ex
 
 ![Wins Histogram](/images/winshisto.png)
 
+
 Here is what the distribution looks like with 1994 removed:
 
 ![Wins Histogram2](/images/winshisto2.png)
