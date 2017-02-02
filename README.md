@@ -9,7 +9,7 @@ First I looked at the distribution of team wins for the data from 1980 on.  I ex
 
 Here is what the distribution looks like with 1994 removed:
 
-![Wins Histogram](/images/winshisto2.png)
+![Wins Histogram2](/images/winshisto2.png)
 
 For each team metric, I wanted to see what variables were most related to winning percentage.
 
