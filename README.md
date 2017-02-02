@@ -11,6 +11,8 @@ Here is what the distribution looks like with 1994 removed:
 
 ![Wins Histogram2](/images/winshisto2.png)
 
+The difference is subtle, but you can easily tell that there are far fewer teams with less than 60 wins.
+
 For each team metric, I wanted to see what variables were most related to winning percentage.
 
 ![Linear Regression Coefficients](/images/coefficients.png)
