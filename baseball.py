@@ -46,7 +46,7 @@ def rfregress(X_train, X_test, y_train, y_test):
     x = range(len(nos))
     plt.plot(x[:-1],nos[:-1], lw=2)
     plt.xticks(x[:-1], labs[:-1])
-    plt.title('Random Forest Feature Importance')
+    plt.title('Random Forest Feature Importance (Win Percentage)')
     plt.savefig('images/feature_importances.png')
     plt.show()
     print labs
@@ -74,7 +74,7 @@ def linregress(X_train, X_test, y_train, y_test):
     x = range(len(nos))
     plt.plot(x,nos, lw=2, c='b')
     plt.xticks(x, labs)
-    plt.title('Linear Regression Coefficients')
+    plt.title('Linear Regression Coefficients (Win Percentage)')
     plt.savefig('images/coefficients.png')
     plt.show()
     print labs
@@ -93,9 +93,9 @@ def linregress(X_train, X_test, y_train, y_test):
 #     print np.array(sorted(scores, key=lambda x: x[2]))
 
 def plot_wins_histo():
-    plt.hist(y)
-    plt.title('Winning Percentage Histogram')
-    plt.savefig('images/winshisto.png')
+    plt.hist(teams['Wins'])
+    plt.title('Wins Histogram')
+    plt.savefig('images/winshisto2.png')
     plt.show()
 
 def plots(x, y, x_lab, y_lab):
@@ -114,4 +114,4 @@ if __name__ == '__main__':
     # regress(X_train, X_test, y_train, y_test)
     # rfregress(X_train, X_test, y_train, y_test)
     # plot_wins_histo()
-    linregress(X_train, X_test, y_train, y_test)
+    # linregress(X_train, X_test, y_train, y_test)
